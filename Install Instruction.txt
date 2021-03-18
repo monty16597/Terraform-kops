@@ -1,0 +1,18 @@
+> Install & Configure AWS cli:
+https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+
+> Installing Terraform:
+https://learn.hashicorp.com/terraform/getting-started/install.html
+
+> Change in resource.tf
+line 28 contains the meaning of the variables.
+change the line no 29 as per your usage. Name must be chagned.
+
+> Changes in script/startup.sh
+change the name of cluster k8s.hybridata.us wherever you see to the new name.
+
+
+> Use commands:
+terraform init
+terraform apply
+(If ask for any thing say yes)
